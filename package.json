@@ -1,6 +1,6 @@
 {
   "name": "notation",
-  "version": "1.3.6",
+  "version": "2.0.0",
   "description": "Utility for modifying / processing the contents of Javascript objects by object notation strings or globs.",
   "repository": "onury/notation",
   "license": "MIT",
@@ -9,10 +9,6 @@
     "email": "onur@cutepilot.com"
   },
   "main": "lib/notation.min.js",
-  "files": [
-    "lib",
-    "LICENSE"
-  ],
   "scripts": {
     "lint": "eslint ./src",
     "prebuild": "npm run lint",
